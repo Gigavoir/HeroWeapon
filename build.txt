@@ -1,0 +1,3 @@
+author = Athrisir
+version = 0.1
+displayName = HeroWeapon Mod

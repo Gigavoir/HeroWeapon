@@ -1,0 +1,2 @@
+C:\Users\presm\Documents\My Games\Terraria\ModLoader\Mod Sources\HeroWeapon\obj\Debug\HeroWeapon.csprojAssemblyReference.cache
+C:\Users\presm\Documents\My Games\Terraria\ModLoader\Mod Sources\HeroWeapon\obj\Debug\HeroWeapon.csproj.CoreCompileInputs.cache
