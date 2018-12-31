@@ -14,7 +14,7 @@ namespace HeroWeapon.Tiles
             Main.tileLighted[Type] = true;
             drop = mod.ItemType("XylliumOre");   //put your CustomBlock name
 			minPick = 0;
-			mineResist = 3f;
+			mineResist = 2f;
 			soundType = 21;
             soundStyle = 2;
             AddMapEntry(new Color(100, 100, 120));

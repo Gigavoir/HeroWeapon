@@ -1,3 +1,4 @@
+using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -17,8 +18,8 @@ namespace HeroWeapon.Items.Xyllium
 			item.useTime = 10;
 			item.useAnimation = 15;
 			item.useStyle = 1;
-			item.value = 10;
-			item.rare = 0;
+            item.value = Item.buyPrice(0, 0, 0, 7);
+            item.rare = 0;
             item.maxStack = 999;
 			item.autoReuse = true;
             item.useTurn = true;

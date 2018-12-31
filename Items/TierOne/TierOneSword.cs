@@ -1,3 +1,4 @@
+using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -8,7 +9,7 @@ namespace HeroWeapon.Items.TierOne
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Xyllium Longsword");
-			Tooltip.SetDefault("Can be upgraded with a molten metal\n[Tier One]");
+			Tooltip.SetDefault("Can be upgraded with a molten metal");
 		}
 		public override void SetDefaults()
 		{
@@ -20,8 +21,8 @@ namespace HeroWeapon.Items.TierOne
 			item.useAnimation = 15;
 			item.useStyle = 1;
 			item.knockBack = 8;
-			item.value = 50000;
-			item.rare = 2;
+            item.value = Item.buyPrice(0, 2, 0, 0);
+            item.rare = 2;
 			item.UseSound = SoundID.Item1;
 			item.autoReuse = false;
 		}
